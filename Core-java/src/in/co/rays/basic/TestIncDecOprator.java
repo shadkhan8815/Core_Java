@@ -20,12 +20,9 @@ public static void main(String[] args) {
 	    
 	      int sum = ++i + --i + i-- + ++i + i + i-- + ++i ;
 	           //    2  +  1  +  1  +  1  + 1 + 1   + 1  = 8 ;
-	      
-	      
-	 
+	    
+	   
 	   System.out.println("sum:" + sum);
-	   
-	   
 	   
       }	
 }
