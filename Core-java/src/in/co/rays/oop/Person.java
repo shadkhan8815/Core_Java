@@ -27,7 +27,7 @@ public class Person {
 	 public String getAddress() {
 		return address;
 	}
-	 public static int getAvgAge() {
+	 public int getAvgAge() {
 		return AVG_AGE;
 	}
 	
