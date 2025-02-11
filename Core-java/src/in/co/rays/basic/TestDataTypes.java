@@ -16,7 +16,7 @@ public class TestDataTypes {
 
 		double d = 100.10;
 
-		boolean flag = true;
+		boolean b1 = true;
 
 		char c = 'a';
 

@@ -7,4 +7,5 @@ public class Rectangle extends Shape {
 		System.out.println("rectangle area method");
 	}
 
+
 }
