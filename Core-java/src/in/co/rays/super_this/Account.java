@@ -1,32 +1,53 @@
-package in.co.rays.oop;
+package in.co.rays.super_this;
 
-public class Account {
+public class Account extends Person {
 	
 	private String number;
 	private String accountType;
 	private double balance;
 	
-	
-	public String getNumber() {
-		return number;
+	public Account() {
+		
 	}
+	public Account(String number) {
+		this.number = number;
+	}
+	public Account(String accountType , double balance) {
+		this.accountType = accountType;
+		this.balance = balance;
+	}
+	public Account(String dob, String address, String name) {
+		super(dob,address,name);
+	}
+	public Account(String accountType , double balance,String number,String dob, String address, String name) {
+		this(dob,address,name);
+		this.accountType = accountType;
+		this.balance = balance;
+		this.number = number;
+	}
+	
 	public void setNumber(String number) {
 		this.number = number;
 	}
 	
-	public String getaccountType() {
-		return accountType;
+	public String getNumber() {
+		return number;
 	}
+	
 	public void setaccountType(String accountType) {
 		this.accountType = accountType;
-		
 	}
+		
+		public String getaccountType() {
+			return accountType;
+		}
+	
+		public void setBalance(double balance) {
+			this.balance = balance;
+		}
 	
 	public double getBalance() {
 		return balance;
-	}
-	public void setBalance(double balance) {
-		this.balance = balance;
 	}
 	
 	public void deposit(double deposit ) {

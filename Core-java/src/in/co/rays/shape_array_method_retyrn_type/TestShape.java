@@ -13,8 +13,8 @@ public class TestShape {
 			shape[2] = Shape.getShape(3); // new Triangle();
 
 			Rectangle r = (Rectangle) shape[0];
-			r.setLength(10);
-			r.setWidth(20);
+			          r.setLength(30);
+			          r.setWidth(40);
 
 			Circle c = (Circle) shape[1];
 			c.setRadius(10);
