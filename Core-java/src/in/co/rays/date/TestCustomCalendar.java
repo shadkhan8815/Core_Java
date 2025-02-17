@@ -19,7 +19,7 @@ public class TestCustomCalendar {
 		
 		//cal.setTime(date );
 		
-		cal.add(Calendar.DATE, 30);
+		cal.add(Calendar.DATE, 25);
 		
 		Date nextEvent = cal.getTime();
 		
