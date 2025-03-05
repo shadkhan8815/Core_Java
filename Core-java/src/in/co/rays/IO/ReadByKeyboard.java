@@ -13,7 +13,7 @@ public class ReadByKeyboard {
 
 		BufferedReader in = new BufferedReader(isReader);
 
-		PrintWriter out = new PrintWriter(new FileWriter("C:\\Users\\pc\\OneDrive\\Desktop\\io\\my.txt", true));
+		PrintWriter out = new PrintWriter(new FileWriter("C:\\Users\\pc\\OneDrive\\Desktop\\io\\Keyboard.txt", true));
 
 		String line = in.readLine();
 
